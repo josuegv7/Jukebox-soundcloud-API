@@ -1,0 +1,99 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: #fff;
+}
+
+.jukebox {
+  width: 60%;
+  text-align: center;
+  position: relative;
+  margin: auto 0;
+  margin-top: 20px
+}
+
+.jukebox .controls {
+  font-size: 3em;
+  color: #555;
+  padding: 10px;
+}
+
+.jukebox .currentSong {
+  border: 2px solid rgb(33, 33, 33);
+  border-radius: 1em;
+  height: 30%;
+  width: 50%;
+  margin-left: 24%
+}
+
+.jukebox .controls .fa {
+  transition: color 0.5s;
+  cursor: pointer;
+}
+
+.jukebox .controls .fa:hover {
+  color: #F55;
+}
+.head {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
+.currentSong {
+  padding-top: 4px;
+  font-size: 1.2em;
+}
+.frame {
+  background-image: url("player.jpg");
+  background-size: cover;
+  text-align: center;
+  width: 80%;
+  height: 500px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+/*----*/
+
+nav {
+  width: 100%;
+  height: 120px;
+  background-color: #2D3142;
+  position: relative;
+  box-shadow: 10px 10px 5px grey;
+}
+
+ul {
+  padding-top: 10px;
+  margin-left: 5px;
+  list-style-type: none;
+  width: 25%;
+}
+
+li a {
+  display: block;
+  color: #EF8354;
+  text-decoration: none;
+  padding: 3px;
+  width: 25%;
+}
+
+#quote {
+  float: right;
+  color: #EF8354;
+  font-size: 2em;
+  margin-right: 15%;
+  margin-top: 3%;
+}
+
+#logo {
+  float: right;
+  width: 10%;
+  height: 90%;
+  padding-top: .5%;
+  padding-right: 2%;
+}
